@@ -1,1 +1,76 @@
-Hello world
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">(https://docs.github.com/ja/pages/getting-started-with-github-pages/creating-a-github-pages-site)</span></p>
+<p class="p1"><span class="s1">(https://qiita.com/generosity_hiroto_taniguchi/items/0a1c9a2548527f50b5ff)</span></p>
+<p class="p1"><span class="s1">(https://qiita.com/stkdev/items/0e2df27736acbea9bd26)</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">brew install ruby</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">gem install bundler</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">gem install jekyll bundler</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">gem list jekyll</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">gem env</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">echo 'export PATH="/opt/homebrew/lib/ruby/gems/3.4.0/bin:$PATH"' &gt;&gt; ~/.zshrc</span></p>
+<p class="p1"><span class="s1">source ~/.zshrc</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">which jekyll</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">jekyll -v</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">mkdir jekyll-project</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">jekyll new my-jekyll-site</span></p>
+<p class="p1"><span class="s1">cd my-jekyll-site</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">bundle exec jekyll serve</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">(https://qiita.com/kanfutrooper/items/ecbb814cef5db663cac9)</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">git --version</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">git clone https://github.com/dnakamura-SRS/dnakamura-srs.github.io</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">rm -rf dnakamura-srs.github.io</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">cd dnakamura-srs.github.io</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">echo "Hello world" &gt; index.html</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">git add --all</span></p>
+<p class="p1"><span class="s1">git commit -m "Initial commit"</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">git push -u dnakamura-srs.github.io main</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">#デプロイ先を登録</span></p>
+<p class="p1"><span class="s1">git remote add dnakamura-srs.github.io https://github.com/dnakamura-srs/dnakamura-srs.github.io.git</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">(token is created at https://github.com/settings/tokens)</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">#アップロード</span></p>
+<p class="p1"><span class="s1">git push -u origin main</span></p>
+<p class="p1"><span class="s1">(pass: token)</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">https://dnakamura-srs.github.io/</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">(https://docs.github.com/ja/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)</span></p>
+</body>
+</html>
